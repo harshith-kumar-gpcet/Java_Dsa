@@ -1,0 +1,15 @@
+# Hello =>> hELLO
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		//toggle case
+		String s="Hello";
+		String res="";
+		for(int i=0;i<s.length();i++){
+		    res+=(char)(s.charAt(i)^32);
+		}
+		System.out.print(res);
+	}
+}
