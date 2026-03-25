@@ -1,6 +1,6 @@
-#java 
-#Palindrome Number
-#Given an integer x, return true if x is a palindrome, and false otherwise.
+//java 
+//Palindrome Number
+//Given an integer x, return true if x is a palindrome, and false otherwise.
 
 class Solution {
     public boolean isPalindrome(int x) {
